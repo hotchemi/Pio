@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="js/jsOAuth.js"></script>
+</head>
+<body>
+<script>
+    var config = {
+        consumerKey: "gEjMs1ZFm7m3qKoUqbhUvg",
+        consumerSecret: "lUmYRxfJ6fRIbsdKHQM8Vqv22XyrjFJEvrQ0SMs4",
+
+        requestTokenUrl: "https://api.twitter.com/oauth/request_token",
+        authorizationUrl: "https://api.twitter.com/oauth/authorize",
+        accessTokenUrl: "https://api.twitter.com/oauth/access_token"
+    };
+    var oauth = new OAuth(config);
+
+    oauth.fetchRequestToken(openAuthoriseWindow, failureHandler);
+
+    function openAuthoriseWindow(url)
+    {
+        var wnd = window.open(url, 'authorise');
+        setTimeout(waitForPin, 100);
+
+        function waitForPin()
+        {
+            if (wnd.closed)
+            {
+                var pin = prompt("Please enter your PIN", "");
+                oauth.setVerifier(pin);
+                oauth.fetchAccessToken(getSomeData, failureHandler);
+                var accessTokenKey = oauth.getAccessTokenKey();
+                var accessTokenSecret = oauth.getAccessTokenSecret();
+                alert(accessTokenKey + accessTokenSecret);
+            }
+            else
+            {
+                setTimeout(waitForPin, 100);
+            }
+        }
+    }
+
+    function getSomeData()
+    {
+        oauth.get("https://api.twitter.com/1.1/statuses/home_timeline.json", function (data) {
+        }, failureHandler);
+    }
+
+    function failureHandler(data)
+    {
+        console.error(data);
+    }
+</script>
+</body>
+</html>
