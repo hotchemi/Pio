@@ -1,14 +1,14 @@
 {
   "version": "0.0.1",
-  "name": "Tweet Holic",
+  "name": "Pío",
   "launch_path": "index.html",
-  "description": "simple twitter client focus on tweet.",
+  "description": "twitter client focus on tweet",
   "icons": {
-    "16": "/applogos/logo16.png",
-    "32": "/applogos/logo32.png",
-    "48": "/applogos/logo48.png",
-    "64": "/applogos/logo64.png",
-    "128": "/applogos/logo128.png"
+    "16": "/img/logo16.png",
+    "32": "/img/logo32.png",
+    "48": "/img/logo48.png",
+    "64": "/img/logo64.png",
+    "128": "/img/logo128.png"
   },
   "developer": {
     "name": "Shintaro Katafuchi",
