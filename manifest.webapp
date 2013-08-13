@@ -1,25 +1,28 @@
 {
-  "version": "0.0.1",
-  "name": "Pío",
-  "launch_path": "index.html",
-  "description": "twitter client focus on tweet",
-  "icons": {
-    "16": "/img/logo16.png",
-    "32": "/img/logo32.png",
-    "48": "/img/logo48.png",
-    "64": "/img/logo64.png",
-    "128": "/img/logo128.png"
-  },
-  "developer": {
-    "name": "Shintaro Katafuchi",
-    "url": "https://github.com/hotchemi"
-  },
-  "installs_allowed_from": ["*"],
-  "default_locale": "en",
-  "type": "privileged",
-  "permissions": {
-    "systemXHR": {
-      "description": "for OAuth"
+    "version": "0.0.1",
+    "name": "Pío",
+    "description": "twitter client focus on tweet",
+    "launch_path": "index.html",
+    "icons": {
+        "16": "/img/logo/16.png",
+        "32": "/img/logo/32.png",
+        "48": "/img/logo/48.png",
+        "64": "/img/logo/64.png",
+        "128": "/img/logo/128.png"
+    },
+    "developer": {
+        "name": "Shintaro Katafuchi",
+        "url": "https://github.com/hotchemi"
+    },
+    "default_locale": "en",
+    "type": "privileged",
+    "installs_allowed_from": ["*"],
+    "permissions": {
+        "systemXHR": {
+            "description": "for OAuth"
+        },
+        "geolocation": {
+            "description": "for tweet"
+        }
     }
-  }
 }

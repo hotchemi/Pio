@@ -16,7 +16,7 @@ header {
 }
 
 header #btnMain {
-  background: #20b2aa url(images/back.png) no-repeat -0.5rem center;
+  background: #20b2aa url(../img/icon/back.png) no-repeat -0.5rem center;
   position: absolute;
   left: 0;
   width: 2rem;
@@ -35,7 +35,7 @@ header #btnInstall {
 }
 
 header #btnAdd {
-  background: url(images/edit.png) no-repeat left center;
+  background: url(../img/icon/edit.png) no-repeat left center;
   width: 3rem;
   border: none;
   height: 100%;
@@ -106,13 +106,13 @@ header li:active {
   position: absolute;
 }
 
-.textEntry textarea {
+.textEntry {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   display: block;
   position: absolute;
   resize: none;
-  height: 100%;
+  height: 80%;
   width: 100%;
   padding: 0.5rem 1rem;
   border: 1px solid #D1D1D1;
@@ -214,5 +214,5 @@ footer li:last-child {
 }
 
 #send {
-  background: url(images/send.png) no-repeat center center;
+  background: url(../img/icon/send.png) no-repeat center center;
 }
