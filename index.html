@@ -3,14 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/transitions.css">
+    <link rel="stylesheet" href="css/progress_activity.css"/>
     <title>Pío</title>
 </head>
 <body>
 <header>
     <ul id="install-add">
         <li></li>
-        <li><button id="btnAdd" class="pickImage"></button></li>
+        <li><button id="btnAdd"></button></li>
     </ul>
     <h1>Pío</h1>
 </header>
@@ -19,20 +21,22 @@
     <div class="textEntry">
         <label for="textContents"></label>
         <textarea id="textContents" placeholder="Tweet" maxlength="140"></textarea>
-        <div id="count">140</div>
+        <div id="count" align="right">140</div>
     </div>
 </div>
 
 <footer>
     <ul>
-        <li><button id="clear">Clear</button></li>
-        <li><button class="tweet">Send</button></li>
-        <li><a href="login.html"><button id="logout">Logout</button></a></li>
+        <li><button id="clear"></button></li>
+        <li><button id="pickImage"></button></li>
+        <li><button id="location"></button></li>
+        <li><button id="logout"></button></li>
     </ul>
 </footer>
 <script src="js/lib/jquery.js"></script>
 <script src="js/lib/text-change.js"></script>
 <script src="js/lib/jsOAuth.js"></script>
+<script src="js/config/oauthInfo.js"></script>
 <script src="js/app/index.js"></script>
 </body>
 </html>
