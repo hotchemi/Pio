@@ -1,11 +1,12 @@
 var storage = window.localStorage,
+    $window = window,
     oauth = new OAuth(oauthInfo);
 
 oauth.fetchRequestToken(
     function(url) {
-        var window = window.open(url, 'authorise');
+        var authWindow = $window.open(url, 'authorise');
         setTimeout(function waitForPin() {
-            if (window.closed) {
+            if (authWindow.closed) {
                 var pin = prompt("Please enter your PIN", "");
                 oauth.setVerifier(pin);
                 oauth.fetchAccessToken(saveAccessToken, function() {
