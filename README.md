@@ -18,3 +18,6 @@ var oauthInfo = {
 
 ### release
 2013/08/20 0.0.1 release.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hotchemi/pio/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
