@@ -17,9 +17,7 @@ var oauthInfo = {
 ```
 
 ### TO DO LIST:
-:: Short URL Service (Bitly);
-:: User Menu with Profile and Latest Tweets;
-:: Image Preview.
+:: Short URL Service (Bitly); User Menu with Profile and Latest Tweets; Image Preview; Hosted Web App; BlackBerry 10 and Android App.
 
 ### Release
 2014/01/04 1.0 release.
