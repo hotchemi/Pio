@@ -1,7 +1,7 @@
-Pio
+Berries WebApp
 ===
 
-Twitter client focus only on tweet
+Twitter client to Tweet On The GO!
 
 ### setUp
 add js/config/oauthInfo.js like this.
@@ -17,7 +17,6 @@ var oauthInfo = {
 ```
 
 ### release
-2013/08/20 0.0.1 release.
+2014/01/04 1.0 release.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hotchemi/pio/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+### based on Pío App by hotchemi
