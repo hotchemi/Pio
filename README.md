@@ -3,7 +3,7 @@ Berries WebApp
 
 Twitter client to Tweet On The GO!
 
-### setUp
+### SetUp
 add js/config/oauthInfo.js like this.
 
 ``` javascript
@@ -21,7 +21,7 @@ var oauthInfo = {
 :: User Menu with Profile and Latest Tweets;
 :: Image Preview.
 
-### release
+### Release
 2014/01/04 1.0 release.
 
 ### Source
