@@ -8,7 +8,7 @@ html, body, button {
 }
 
 header {
-    background-color: #20b2aa;
+    background-color: #9b3333;
     color: #FFFFFF;
     height: 4.9rem;
     position: relative;
@@ -35,7 +35,7 @@ header #btnInstall {
 }
 
 header #btnAdd {
-    background: url(../img/icon/edit.png) no-repeat left center;
+    background: url(../img/icon/tweet.png) no-repeat left center;
     width: 3rem;
     border: none;
     height: 100%;
@@ -148,14 +148,14 @@ header li:active {
 }
 
 footer {
-    background:#6a7b86;
-    background:-moz-linear-gradient(top,#6a7b86 0%,#424f5a 100%);
-    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#6a7b86),color-stop(100%,#424f5a));
-    background:-webkit-linear-gradient(top,#6a7b86 0%,#424f5a 100%);
-    background:-o-linear-gradient(top,#6a7b86 0%,#424f5a 100%);
-    background:-ms-linear-gradient(top,#6a7b86 0%,#424f5a 100%);
-    background:linear-gradient(top,#6a7b86 0%,#424f5a 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6a7b86',endColorstr='#424f5a',GradientType=0);
+    background:#9b3333;
+    background:-moz-linear-gradient(top,#9b3333 0%,#7b3333 100%);
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#9b3333),color-stop(100%,#7b3333));
+    background:-webkit-linear-gradient(top,#9b3333 0%,#7b3333 100%);
+    background:-o-linear-gradient(top,#9b3333 0%,#7b3333 100%);
+    background:-ms-linear-gradient(top,#9b3333 0%,#7b3333 100%);
+    background:linear-gradient(top,#9b3333 0%,#7b3333 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9b3333',endColorstr='#7b3333',GradientType=0);
     color: #fff;
     position: absolute;
     width:100%;
@@ -173,7 +173,7 @@ footer ul {
 footer li {
     /* background: url("images/separator.png") no-repeat scroll left top; */
     float: left;
-    border-right: 1px solid #445;
+    border-right: 1px solid #6b3333;
     width: 24.7%;
     height: 100%;
     list-style: none;
@@ -216,21 +216,21 @@ footer li:last-child {
 }
 
 #clear {
-    background: url(../img/icon/delete.png) no-repeat -0.5rem center;
+    background: url(../img/icon/reset.png) no-repeat -0.5rem center;
     background-position: center;
 }
 
 #pickImage {
-    background: url(../img/icon/add.png) no-repeat -0.5rem center;
+    background: url(../img/icon/pictures.png) no-repeat -0.5rem center;
     background-position: center;
 }
 
 #location {
-    background: url(../img/icon/mark.png) no-repeat -0.5rem center;
+    background: url(../img/icon/location.png) no-repeat -0.5rem center;
     background-position: center;
 }
 
 #logout {
-    background: url(../img/icon/send.png) no-repeat center center;
+    background: url(../img/icon/logout.png) no-repeat center center;
     background-position: center;
 }
